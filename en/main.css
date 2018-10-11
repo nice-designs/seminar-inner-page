@@ -1,0 +1,1077 @@
+
+@import url('https://file.myfontastic.com/xPaRoTsmkJ75fNHFMFEmEE/icons.css');
+
+       /************* general styles ***************/
+.row.backgroundPlatforms, .row.bg-blue{
+    margin: 0;
+}
+.backgroundPlatforms .container .title {
+    text-transform: uppercase;
+}
+
+.new-footer-style {
+    padding-bottom: 150px;
+}
+
+@media (min-width: 992px) {
+    .row.backgroundPlatforms {
+        background-image: url("//dwj7fa0133ng0.cloudfront.net/cap/uploads/events/new_seminar_subpages/Beginners_seminar/Beginners+Seminar_DESKTOP_1920x350_v2.jpg") !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .row.backgroundPlatforms {
+        background-image: url("//dwj7fa0133ng0.cloudfront.net/cap/uploads/events/new_seminar_subpages/Beginners_seminar/Beginners+Seminar_TABLET_1150x640_v2.jpg") !important;
+    }
+}
+
+@media (max-width: 865px) and (min-width: 501px) {
+    .backgroundPlatforms .container .title {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .row.backgroundPlatforms {
+        background-position: center;
+        height: 337px;
+    }
+
+    body {
+        overflow-x: hidden;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 602px) {
+    .new-footer-style {
+        padding-bottom: 270px;
+    }
+
+    .padding-bottom-60 {
+        padding-bottom: 60px;
+    }
+}
+
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
+
+.margin-bottom-70 {
+    margin-bottom: 70px;
+}
+
+.margin-bottom-180 {
+    margin-bottom: 180px;
+}
+
+.margin-top-45 {
+    margin-top: 45px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.section-header {
+    text-transform: uppercase;
+    font-family: latobold;
+    color: rgb(0, 89, 167);
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+
+/*JS classes*/
+.padding-bottom-60 {
+    padding-bottom: 60px;
+}
+
+/*end JS classes*/
+/************* end general styles ***************/
+/************* styles of the title ***************/
+.date-location-container {
+    width: 407px;
+    margin-left: 5px;
+}
+
+.date-location-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.d-l-icon {
+    background-image: url("//dwj7fa0133ng0.cloudfront.net/cap/uploads/events/new_seminar_subpages/sprites/Sprites.svg");
+    background-size: 174px 173px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.d-l-icon.calendar {
+    background-position: -103px -22px;
+}
+
+.d-l-icon.location {
+    background-position: -105px -103px;
+}
+
+.date-location-text {
+    font-family: latoregular;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+@media (max-width: 992px) {
+    .date-location-container {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 430px) {
+    .date-location-container {
+        width: 100%;
+    }
+
+    .date-location-text {
+        font-size: 5vw;
+    }
+}
+
+/************* end styles of the title ***************/
+/************* styles of the first section ***************/
+#section-one p, #section-two p.reserve {
+    font-family: latoregular;
+    font-size: 16px;
+    color: rgb(92, 103, 112);
+    line-height: 21px;
+}
+
+@media (max-width: 991px) {
+    section#section-one {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #section-one p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    #section-one p {
+        text-align: center;
+    }
+}
+
+/************* end styles of the first section ***************/
+
+/************* styles of the second section ***************/
+/*styles of the agenda*/
+.nav-tabs {
+    border: none;
+    margin: 0 auto 40px;
+}
+
+.nav-tabs .col-xs-6 {
+    padding: 0;
+}
+
+.nav-tabs > li {
+    list-style: none;
+    margin: 0;
+    padding-left: 0 !important;
+    font-size: 21px !important;
+    font-family: latoregular;
+}
+
+.nav-tabs > li > a {
+    background-color: #f3f8ff !important;
+    color: #728289 !important;
+    text-align: center;
+    font-size: 21px;
+    border: 1px solid #606060;
+    border-radius: 0;
+    margin-right: 0;
+}
+
+.nav-tabs > li > a:hover {
+    border: 1px solid #606060;
+}
+
+.nav-tabs li.active {
+    background-color: rgb(0, 143, 249) !important;
+    color: white !important;
+    text-align: center;
+    font-size: 21px;
+    position: relative;
+}
+
+.nav-tabs li.active, .nav-tabs li.active:hover, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
+    border: 1px solid rgb(0, 143, 249) !important;
+    border-bottom: 0 !important;
+}
+
+.nav-tabs > li.active > a {
+    background-color: rgb(0, 143, 249) !important;
+    color: white !important;
+    text-align: center;
+    font-size: 21px;
+}
+
+.col-45-percent, .col-10-percent {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.col-45-percent {
+    width: 45%;
+    margin-top: -4px;
+}
+
+.col-10-percent {
+    width: 10%;
+}
+
+.time-range, .time-range-agenda, .speaker-name-bottom-layer, .speaker-name-top-layer {
+    font-family: latomedium;
+    color: rgb(0, 89, 167);
+    font-size: 21px;
+    line-height: 23px;
+}
+
+.speaker-name-bottom-layer, .speaker-name-top-layer {
+    padding-top: 25px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.time-range {
+    text-align: right;
+}
+
+.time-range-agenda {
+    text-align: left;
+}
+
+.col-10-percent .time-range-icon {
+    background-image: url("//dwj7fa0133ng0.cloudfront.net/cap/uploads/events/new_seminar_subpages/sprites/Sprites.svg");
+    background-repeat: no-repeat;
+}
+
+.col-10-percent .circle {
+    background-size: 107px 128px;
+    background-position: -10px -77px;
+    margin-top: -1px;
+}
+
+.col-10-percent .horizontal-line {
+    background-size: 107px 128px;
+    background-position: -10px -29px;
+    height: 32px;
+}
+
+@media (max-width: 991px) {
+    .nav-tabs .col-xs-12 {
+        padding: 0;
+        width: 390px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .nav-tabs {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 655px) {
+    .col-10-percent .circle {
+        background-position: -1px -77px;
+    }
+
+    .col-10-percent .horizontal-line {
+        background-position: -1px -29px;
+    }
+}
+
+@media (max-width: 767px) {
+    #section-two p.reserve {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 654px) and (min-width: 501px) {
+    .col-10-percent .circle {
+        background-position: -8px -77px;
+    }
+
+    .col-10-percent .horizontal-line {
+        background-position: -8px -29px;
+    }
+}
+
+@media (max-width: 500px) {
+    .col-10-percent {
+        width: 13%;
+    }
+
+    .col-45-percent {
+        width: 43.5%;
+    }
+
+    .nav-tabs .col-xs-6, .nav-tabs .col-xs-12 {
+        padding: 0;
+        width: 260px;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+@media (max-width: 361px) {
+    .col-10-percent .circle {
+        background-position: -17px -77px;
+    }
+
+    .col-10-percent .horizontal-line {
+        background-position: -17px -29px;
+    }
+}
+
+/*end styles of the agenda*/
+
+/*styles of the reserve your seat*/
+.reserve-form {
+    width: 444px;
+    float: right;
+}
+
+#section-two p.reserve {
+    text-align: left;
+    margin-bottom: 51px;
+}
+
+.form-align {
+    background-color: rgb(0, 143, 249);
+    height: 480px;
+}
+
+.slider_img h6 {
+    color: #fff !important;
+}
+
+@media (max-width: 991px) {
+    .reserve-form {
+        margin: 80px auto 0;
+        float: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .reserve-form {
+        width: 100%;
+    }
+}
+
+/*end styles of the reserve your seat*/
+
+/************* end styles of the second section ***************/
+
+/************* styles of the third section ***************/
+#section-three {
+    background-color: rgb(243, 248, 255);
+    padding: 70px 0;
+}
+
+#section-three .section-header {
+    margin-bottom: 70px;
+}
+
+.hvrbox * {
+    box-sizing: border-box;
+}
+
+.hvrbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvrbox-layer_bottom img {
+    min-width: 286px;
+    min-height: 462px;
+}
+
+.hvrbox .hvrbox-layer_top {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(222, 237, 255, 0.9);
+    color: #fff;
+    padding: 15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+}
+
+.hvrbox .hvrbox-text {
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hvrbox .hvrbox-text_mobile {
+    font-size: 15px;
+    border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+    border-top: 1px solid rgba(179, 179, 179, 0.7);
+    margin-top: 5px;
+    padding-top: 2px;
+    display: none;
+}
+
+.hvrbox.active .hvrbox-text_mobile {
+    display: block;
+}
+
+.hvrbox,
+.hvrbox * {
+    box-sizing: border-box;
+}
+
+.hvrbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.hvrbox .hvrbox-layer_bottom {
+    display: block;
+}
+
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+}
+
+.speaker-name-bottom-layer, .top-orange-border {
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox:hover .speaker-name-container,
+.hvrbox.active .speaker-name-container,
+.hvrbox:hover .top-orange-border,
+.hvrbox.active .top-orange-border {
+    opacity: 0;
+}
+
+.hvrbox .hvrbox-text {
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px;
+}
+
+.hvrbox .hvrbox-text_mobile {
+    font-size: 15px;
+    border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+    border-top: 1px solid rgba(179, 179, 179, 0.7);
+    margin-top: 5px;
+    padding-top: 2px;
+    display: none;
+}
+
+.hvrbox.active .hvrbox-text_mobile {
+    display: block;
+}
+
+.speaker-bio {
+    font-family: latomedium;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    line-height: 23px;
+}
+
+.bottom-orange-border, .top-orange-border {
+    border-bottom: 3px solid #f9a21c;
+    font-size: 0;
+    width: 84px;
+    margin: 0 auto;
+}
+
+.top-orange-border {
+    margin-bottom: 25px;
+}
+
+.speaker-name-container {
+    height: 90px;
+    background-color: rgb(222, 237, 255);
+    position: absolute;
+    width: 286px;
+    bottom: 0;
+    opacity: 0.98;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .speaker-bio {
+        font-size: 13px;
+    }
+
+    .speaker-name-bottom-layer, .speaker-name-top-layer {
+        font-size: 19px;
+    }
+
+    .speaker-image {
+        height: 280px;
+    }
+}
+
+@media (max-width: 991px) {
+    #section-three .col-md-3.col-sm-6.col-xs-12 {
+        margin-bottom: 25px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+/************* end styles of the third section ***************/
+
+/************* styles of the counter section ***************/
+/*styles of the counter itself*/
+#clockdiv {
+    font-family: latomedium;
+    font-size: 37px;
+    color: rgb(243, 248, 255);
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    background-color: rgba(70, 181, 226, 0.5);
+}
+
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 15px 15px 1px 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.smalltext {
+    font-size: 16px;
+    padding-bottom: 11px;
+}
+
+/*styles of the counter itself*/
+
+#counter {
+    background-color: rgba(0, 89, 167, 0.95);
+    position: fixed;
+    bottom: 0;
+    z-index: 9999999999;
+    width: 100%;
+}
+
+#counter .seminar-title {
+    font-family: latobold;
+    font-size: 40px;
+    color: rgb(243, 248, 255);
+    line-height: 48px;
+}
+
+#counter .starts-in {
+    font-family: latobold;
+    font-size: 28px;
+    color: rgb(243, 248, 255);
+    line-height: 33.6px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #clockdiv {
+        width: 438px;
+    }
+
+    #counter .seminar-title {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #clockdiv {
+        font-size: 3vw;
+        height: 109px;
+    }
+
+    #counter .seminar-title {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+
+    #counter .starts-in {
+        font-size: 2.3vw;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 603px) {
+    #counter .seminar-title {
+        font-size: 4vw;
+        line-height: 4vw;
+        margin: 5px 0 0 0;
+    }
+
+    #counter .starts-in {
+        font-size: 3.3vw;
+        margin-bottom: 0;
+    }
+
+    #clockdiv {
+        font-size: 2.4vw;
+    }
+
+    .smalltext {
+        font-size: 2.3vw;
+    }
+}
+
+@media (max-width: 602px) {
+    #counter .col-xs-6 {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    #counter .seminar-title, #counter .starts-in {
+        text-align: center;
+    }
+
+    #clockdiv {
+        width: 100%;
+    }
+}
+
+@media (max-width: 602px) and (min-width: 400px) {
+    #counter .seminar-title {
+        font-size: 5vw;
+        line-height: 4vw;
+    }
+
+    #counter .starts-in {
+        font-size: 4vw;
+    }
+
+    #clockdiv {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 399px) {
+    #counter .seminar-title {
+        font-size: 7vw;
+        line-height: 4vw;
+    }
+
+    #counter .starts-in {
+        font-size: 6vw;
+    }
+
+    #clockdiv {
+        font-size: 5vw;
+    }
+}
+
+/************* end styles of the counter section ***************/
+/************* styles of the forth section ***************/
+#section-four iframe {
+    height: 305px;
+}
+
+/************* end styles of the forth section ***************/
+/************* styles of the fifth section ***************/
+#section-five div {
+    background: url(https://dwj7fa0133ng0.cloudfront.net/cap/uploads/events/new_main_seminar_page/general_images/Host-your-own-event_desktop1.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    height: 350px;
+}
+
+#section-five h1 {
+    font-family: latobold;
+    font-size: 58px;
+    color: #fff;
+    line-height: 52.3px;
+    margin: 0 0 31px 0;
+}
+
+#section-five .btn {
+    border-radius: 0;
+    background-color: #f9a21c;
+    color: #fff;
+    padding: 9px 25px;
+    width: 256px;
+    margin-bottom: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+#section-five .btn:hover {
+    background-color: #FF9800;
+}
+
+#section-five #risk-warning {
+    font-family: latoregular !important;
+    font-size: 13px !important;
+    color: #fff !important;
+    line-height: 17px !important;
+    margin-top: 5px !important;
+}
+
+@media (max-width: 991px) {
+    #section-five div {
+        background: url(https://dwj7fa0133ng0.cloudfront.net/cap/uploads/events/new_main_seminar_page/general_images/Host-your-own-event_tablet1.jpg) fixed;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 767px) {
+    #section-five h1 {
+        font-size: 7.5vw;
+    }
+}
+
+/************* end styles of the fifth section ***************/
+
+/************* extra styles ***************/
+
+iframe#launcher {
+    bottom: 160px !important;
+}
+
+#section-one .sub-title-mobile {
+    font-family: latobold;
+    color: rgb(0, 89, 167);
+}
+
+#section-two p.reserve {
+    text-align: center;
+}
+
+.col-10-percent .circle {
+    background-position: -18px -77px;
+    background-size: 107px 128px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: -1px;
+}
+
+.col-10-percent .horizontal-line {
+    background-position: -18px -29px;
+    height: 32px;
+    margin: 0 auto;
+    width: 20px;
+    background-size: 107px 128px;
+    margin-top: -1px;
+}
+
+.icon-android-time {
+    font-size: 34px;
+    display: inline-block;
+    color: #ffffff;
+    height: 36px;
+    width: 42px;
+}
+
+.text-icon {
+    font-family: latoregular;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.date-location-container {
+    max-width: 560px;
+    width: 100%;
+}
+
+.d-l-icon {
+    width: 38px;
+    margin-top: 4px;
+}
+
+.date-location-text {
+    padding-left: 12px;
+}
+
+.display-block-icon {
+    display: inline-flex;
+}
+
+.backgroundPlatforms .container .sub-title {
+    font-size: 19px !important;
+    line-height: 32px;
+}
+
+.extra-line {
+    height: 10px !important;
+}
+
+.bg-blue {
+    background-color: #f3f8ff;
+}
+
+.text-blue {
+    height: auto;
+    padding: 50px 50px;
+}
+
+.why-atted {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: latobold;
+    color: rgb(0, 89, 167);
+}
+
+.text-paragr {
+    font-family: latoregular;
+    font-size: 16px;
+    color: rgb(92, 103, 112);
+    line-height: 21px;
+    text-align: center;
+}
+
+.list-style-position {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+.list-style-position > li {
+    font-family: latoregular;
+    font-size: 16px;
+    color: rgb(92, 103, 112);
+    line-height: 21px;
+    text-align: center;
+}
+
+.show-mobile-only, .show-500-401, .show-tablet-mobile-only {
+    display: none;
+}
+
+#section-five {
+    margin-bottom: -23px;
+}
+
+#clockdiv div > span {
+    padding: 10px 10px 1px 10px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .extra-line {
+        height: 32px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .row.backgroundPlatforms {
+        background-image: url("//dwj7fa0133ng0.cloudfront.net/cap/seminars/beginner/Philippines/Philippines-Primus-Academy-Event_Desktop.jpg") !important;
+        background-position: center;
+    }
+
+}
+
+@media (min-width: 866px) {
+    .backgroundPlatforms .container .title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    section#section-one {
+        margin-bottom: 45px;
+    }
+    .row.backgroundPlatforms {
+        background-image: url("//dwj7fa0133ng0.cloudfront.net/cap/seminars/beginner/Philippines/Philippines-Primus-Academy-Event_tablet.jpg") !important;
+    }
+
+    .date-location-container {
+        margin: 0 auto;
+    }
+
+    .show-tablet-mobile-only {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #section-one p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 501px) {
+    .time-range-agenda {
+        width: 160px;
+    }
+
+    .extra-line {
+        height: 18px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-center-mobile {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 603px) {
+    .smalltext {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 501px) {
+    .backgroundPlatforms .container {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 600px) {
+    .list-style-position {
+        list-style-position: initial;
+        padding-left: 20px;
+    }
+
+    .list-style-position > li {
+        text-align: left;
+    }
+
+    .text-blue {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .backgroundPlatforms .container {
+        margin-top: 45px;
+    }
+
+    .time-range-agenda {
+        width: 120px;
+    }
+
+    .extra-line {
+        height: 32px !important;
+    }
+}
+
+/*@media (max-width: 589px) {*/
+/*#counter #clockdiv div > span {*/
+/*padding: 10px 10px 1px 10px !important;*/
+/*}*/
+/*}*/
+
+@media (max-width: 500px) and (min-width: 401px) {
+    .show-500-401 {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .time-range-agenda, .time-range {
+        font-size: 4.7vw;
+    }
+
+    .full-width-400 {
+        width: 100%;
+    }
+
+    .full-width-400:nth-child(2) {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 370px) {
+    .hvrbox {
+        max-width: 289px;
+    }
+
+    #section-three .speaker-container {
+        padding-right: 15px;
+        padding-left: 4px;
+    }
+}
+
+@media (max-width: 322px) {
+    .icon-android-time {
+        width: 40px;
+    }
+}
+
+@media (max-width: 334px) {
+    .extra-line {
+        display: none;
+    }
+}
+/************* end of extra styles ***************/
+
